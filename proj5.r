@@ -1,4 +1,3 @@
-## Name: Yifan Wu   UUN:s2316499
 ## This project implement such a demographic model for England and Wales, 
 ## to predict the expected number of deaths per week from the beginning of 2020
 ## if death rates had stayed at the levels seen in 2017-19. The model will
