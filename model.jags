@@ -1,0 +1,13 @@
+model{
+mu[1] = alpha ## initial the mu value
+for (i in 1:N){ ## loop over the data
+x[i] ~ dt(mu[i],tau,kapa) ## use t distribution to get the x value
+mu[i+1] = (x[i]-alpha)*rou + alpha ## update the mu value 
+}
+tau ~ dexp(1) ## prior for tau
+kapa ~ dunif(2, 100) ## prior for kapa
+rou ~ dunif(0, 0.9) ## prior for rou
+alpha ~ dnorm(0, 100) ## prior for alpha
+}
+
+
