@@ -7,7 +7,7 @@
 ## a simple Bayesian model in JAGS.
 
 ## set the path
-## setwd("/Users/ivan/Desktop/S1/Statistical Programming/in project/project5")
+## setwd("*****")
 ## import two files as our data set 
 pop_df <- read.table('lt1720uk.dat')
 death_df <- read.table('death1722uk.dat')
